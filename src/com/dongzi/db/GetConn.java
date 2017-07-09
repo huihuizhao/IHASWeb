@@ -11,7 +11,7 @@ public class GetConn {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 //			connection=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/�˴���DB��","DB�ʺ�","DB����");
-			connection=DriverManager.getConnection("jdbc:mysql://192.168.1.101:3306/jsondb","root","123456");
+			connection=DriverManager.getConnection("jdbc:mysql://192.168.1.101:3306/smarthealth","root","123456");
 //			connection=DriverManager.getConnection("jdbc:mysql://192.168.1.6:3306/jsondb","root","123456");
 		} catch (ClassNotFoundException e) {			
 			e.printStackTrace();
