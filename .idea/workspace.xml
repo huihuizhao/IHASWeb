@@ -2,15 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7d78f1f-ecc7-45a6-af53-ffa7a56fccc7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/classes/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/changelog.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/index00.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/index2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/starter00.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/starter01.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/UI/buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/UI/general.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/UI/icons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/UI/modals.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/UI/sliders.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/UI/timeline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/calendar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/charts/chartjs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/charts/flot.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/charts/inline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/charts/morris.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/examples/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/examples/500.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/examples/blank.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/examples/invoice-print.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/examples/invoice.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/examples/lockscreen.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/examples/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/examples/pace.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/examples/profile.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/examples/register.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/forms/advanced.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/forms/editors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/forms/general.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/layout/boxed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/layout/collapsed-sidebar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/layout/fixed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/layout/top-nav.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/mailbox/compose.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/mailbox/mailbox.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/mailbox/read-mail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/tables/data.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/tables/simple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/pages/widgets.html" afterPath="" />
     </list>
     <ignored path="JsonWeb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -483,10 +508,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/pages/examples/blank.html">
+    <entry file="file://$PROJECT_DIR$/WebContent/starter.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="426" column="50" selection-start-line="426" selection-start-column="50" selection-end-line="426" selection-end-column="50" />
+          <caret line="463" column="0" selection-start-line="461" selection-start-column="0" selection-end-line="567" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/peopleDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -515,13 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/pages/examples/blank.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="426" column="50" selection-start-line="426" selection-start-column="50" selection-end-line="426" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/starter.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -547,13 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/pages/examples/blank.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="426" column="50" selection-start-line="426" selection-start-column="50" selection-end-line="426" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/starter.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -576,45 +605,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/pages/examples/blank.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="426" column="50" selection-start-line="426" selection-start-column="50" selection-end-line="426" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/starter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="463" column="0" selection-start-line="461" selection-start-column="0" selection-end-line="567" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#5;n#tr#0;n#thead#0;n#table#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/peopleDetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/pages/examples/blank.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="426" column="50" selection-start-line="426" selection-start-column="50" selection-end-line="426" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -640,13 +630,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/pages/examples/blank.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -678,41 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/pages/tables/data.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/pages/tables/simple.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="51.42857">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/pages/examples/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/blank.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.357143">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/pages/examples/blank.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.96153843">
-          <caret line="426" column="50" selection-start-line="426" selection-start-column="50" selection-end-line="426" selection-end-column="50" />
         </state>
       </provider>
     </entry>
