@@ -52,4 +52,26 @@
     <url-pattern>/dwr/*</url-pattern>  
   </servlet-mapping> 
   
+  
+   
+    <!-- 增加ssl请求 -->  
+    <login-config>  
+        <!-- 认证方式基于客户端证书-->  
+    <auth-method>CLIENT-CERT</auth-method>  
+    <realm-name>Client Cert Users-only Area</realm-name>  
+    </login-config>  
+    <security-constraint>  
+        <!-- 此元素确定应该保护的资源 -->  
+        <web-resource-collection>  
+            <web-resource-name>SSL</web-resource-name>  
+     <!-- url-pattern适用于直接访问这些资源的客户机,不适用于转发-->  
+            <url-pattern>/*</url-pattern>  
+        </web-resource-collection>  
+        <!-- 访问相关资源时使用任何传输层保护 -->  
+        <user-data-constraint>  
+      
+    <transport-guarantee>CONFIDENTIAL</transport-guarantee>  
+        </user-data-constraint>  
+    </security-constraint>  
+  
 </web-app>
