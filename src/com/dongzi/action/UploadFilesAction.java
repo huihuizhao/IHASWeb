@@ -49,7 +49,7 @@ public class UploadFilesAction extends ActionSupport implements ServletRequestAw
 			String uploadPath = request.getRealPath("\\uploadfile\\");
 //			String uploadPath = this.getServletContext().getRealPath("/")+"\\uploadfile\\";
 			// 将路径和上传文件名组合成完整的服务端路径
-			imageName = uploadPath + imageName;
+			imageName = uploadPath +"\\"+ imageName;
 			GenerateImage(  imageBase64,   imageName);
 
 			boolean b = true;

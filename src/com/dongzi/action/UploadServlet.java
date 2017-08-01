@@ -66,6 +66,7 @@ public class UploadServlet extends HttpServlet
 			// 从web.xml文件中的参数中得到上传文件的路径
 			String uploadPath = this.getServletContext().getRealPath("/")+"\\uploadfile\\";
 			
+			
 			System.out.println(uploadPath);
 			
 			File file = new File(uploadPath);
@@ -113,7 +114,7 @@ public class UploadServlet extends HttpServlet
 				}
 			}
 			// 将路径和上传文件名组合成完整的服务端路径
-			filename = uploadPath + filename;
+			filename = uploadPath +"\\"+ filename;
 			System.out.println("filename="+filename);
 			// 如果服务器已经存在和上传文件同名的文件，则输出提示信息
 			if (new File(filename).exists())
