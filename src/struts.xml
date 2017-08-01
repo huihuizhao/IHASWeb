@@ -17,9 +17,14 @@
 			method="login">
 			<result type="json"></result>  <!--返回值类型设置为json,不设置返回页面 -->
 		</action>
-		
+
 		<action name="Insert" class="com.dongzi.action.InsertAction"
 			method="Insert">
+			<result type="json"></result>  <!--返回值类型设置为json,不设置返回页面 -->
+		</action>
+
+		<action name="UploadFilesAction" class="com.dongzi.action.UploadFilesAction"
+			method="UploadFiles">
 			<result type="json"></result>  <!--返回值类型设置为json,不设置返回页面 -->
 		</action>
 

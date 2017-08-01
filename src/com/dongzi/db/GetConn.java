@@ -13,7 +13,7 @@ public class GetConn {
 //			connection=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/�˴���DB��","DB�ʺ�","DB����");
 //			connection=DriverManager.getConnection("jdbc:mysql://218.249.137.198:3306/smarthealth","root","123456");
 			connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/smarthealth","root","123456");
-//			connection=DriverManager.getConnection("jdbc:mysql://192.168.1.6:3306/jsondb","root","123456");
+//			connection=DriverManager.getConnection("jdbc:mysql://192.168.1.101:3306/smarthealth","root","123456");
 		} catch (ClassNotFoundException e) {			
 			e.printStackTrace();
 		} catch (SQLException e) {	
