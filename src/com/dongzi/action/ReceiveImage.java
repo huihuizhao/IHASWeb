@@ -159,28 +159,12 @@ public class ReceiveImage extends HttpServlet {
                    // request.getRequestDispatcher("/message.jsp").forward(request, response);
         }
         
-        /**
-        * @Method: makeFileName
-        * @Description: 生成上传文件的文件名，文件名以：uuid+"_"+文件的原始名称
-        * @Anthor:孤傲苍狼
-        * @param filename 文件的原始名称
-        * @return uuid+"_"+文件的原始名称
-        */ 
+
         private String makeFileName(String filename){  //2.jpg
             //为防止文件覆盖的现象发生，要为上传文件产生一个唯一的文件名
             return UUID.randomUUID().toString() + "_" + filename;
         }
-        
-        /**
-         * 为防止一个目录下面出现太多文件，要使用hash算法打散存储
-        * @Method: makePath
-        * @Description: 
-        * @Anthor:孤傲苍狼
-        *
-        * @param filename 文件名，要根据文件名生成存储目录
-        * @param savePath 文件存储路径
-        * @return 新的存储目录
-        */ 
+
         private String makePath(String filename,String savePath){
             //得到文件名的hashCode的值，得到的就是filename这个字符串对象在内存中的地址
             int hashcode = filename.hashCode();
